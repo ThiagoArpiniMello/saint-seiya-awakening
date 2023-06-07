@@ -115,6 +115,17 @@ div.intro > iframe{
     height: 90%;
 }
 
+.contato{
+    display: flex;
+}
+
+.contato img{
+    width: 150px;
+    height: 150px;
+    padding-left: 170px;
+    padding-top: 10px;
+}
+
 /*
 footer{
     background-image: linear-gradient(to right, #161736, #353050, #786D79, #61374b);
