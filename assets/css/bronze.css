@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #2B3B54, #6A99AC, #91BFCF, #337983, #0B3448);  
+}   
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: 50%;
+    width: 500px;
+    height: 300px;
+}
+
+
