@@ -85,6 +85,7 @@ main{
     background-color: white;
 }
 
+
 main > h1{
     font-size: 1.6em;
     text-align: center;
@@ -114,6 +115,7 @@ div.intro > iframe{
     width:  90%;
     height: 90%;
 }
+
 
 .contato{
     display: flex;
