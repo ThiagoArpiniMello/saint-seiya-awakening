@@ -12,8 +12,19 @@ div.kiki >h1{
     text-align: center;
 }
 
+div{
+    display: inline-block;
+}
+
 .cavaleiros >li{
     list-style-image: url('../images/cloth-repair/rank-b/favicon-16x16.png');
+    font-weight: bold;
+    padding: 3px;
+    
+}
+
+.cavaleiros-s >li{
+    list-style-image: url('../images/cloth-repair/rank-s/favicon-16x16.png');
     font-weight: bold;
     padding: 3px;
     
@@ -24,7 +35,17 @@ div.kiki >h1{
     color: blue;
 }
 
+.cavaleiros-s > li > a{
+    text-decoration: none;
+    color: blue;
+}
+
 .cavaleiros > li >a:hover{
+    color: black;
+    transition: 1s;
+}
+
+.cavaleiros-s > li >a:hover{
     color: black;
     transition: 1s;
 }
@@ -48,4 +69,21 @@ div.kiki >h1{
 
 h3{
     font-size: 2em;
+}
+
+.reparo-s{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-bottom: 10px; 
+    padding-bottom: 50px;
+}  
+
+.reparo-s .item{
+    max-width:80%;
+    padding: 10px;
+}
+
+.reparo-s .item >img{
+    width: 100%;
 }
